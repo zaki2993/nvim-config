@@ -1018,3 +1018,6 @@ vim.opt.number = true -- show line numbers
 vim.opt.relativenumber = true -- show relative numbers
 vim.opt.autochdir = true
 vim.g.netrw_keepdir = 0
+vim.api.nvim_set_keymap('', '²', '<Esc>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '²', '<Esc>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '²', '<Esc>', { noremap = true, silent = true })
